@@ -1,0 +1,475 @@
+*{
+			font-family: Monserrat, sans-serif;
+		}
+		@media screen and (min-width: 320px) and (max-width : 480px){
+			/*#headblue{
+				background-image: url('img/tim.png'); background-repeat: no-repeat center center fixed; height: 500px; -webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;
+				
+
+			}*/
+			#bagian-timeline-xs{				
+				background-image: url('img/Group13.png'); background-repeat: no-repeat center center fixed; height: 350px; -webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover; color: #9290A1; padding-left: 0; padding-right: 0;
+		}
+		#box-gambar-headblue img{
+			width: 100%;
+			position: absolute;
+			top: 0px;
+			left: -50px;
+		}
+		#box-headblue{
+			padding: 0;
+		}
+		#konten-headblue{
+			width: 100%; color: #fff;
+		}
+		#judul-headblue{
+			padding-bottom: 0; padding-top: 100px;
+		}
+		#desc-headblue{
+			padding-bottom: 30px; text-align: justify;
+		}
+		#tombol-cek{
+			width: 150px; height: 40px; background-color: #FB4D80; border-radius: 100px; border: 0px; padding-top: 10px; margin-left: 60px;
+		}
+		#konten2{
+			background-color: #fff; padding: 0px; text-align: center; margin-top: 0px; padding-top: 50px; padding-bottom: 50px;
+		}
+		#container-konten2{
+			width: 100%; padding-bottom: 50px; padding: 0;
+		}
+		#box-konten2{
+			background-color: red;
+			padding: 0;
+		}
+		#box-card-konten2{
+			padding-top: 50px; background-color: #F2F3F7; padding-bottom: 30px;
+		}
+		#judul-konten2{
+			padding-bottom: 50px; border-bottom: 3px solid;
+		}
+		#box-card2{
+			padding-bottom: 50px;
+		}
+		#bagian-rc{
+			padding-top: 0%;
+		}
+		#container-rc{
+			padding-bottom: 10%;
+			padding: 0;
+		}
+		#judul-rc{
+			color: #F48FB5; border-left: 5px solid #3C3874; padding-left: 10px; font-size: 130%;
+		}
+		#bagian-timeline{				background-image: url('img/Group13.png'); background-repeat: no-repeat center center fixed; height: 900px; -webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover; color: #9290A1; padding-left: 0; padding-right: 0;
+	}
+	#box-tl{
+		padding-right: 0; padding-left: 0;
+	}
+	#box-tl1{
+		height: 900px; z-index: 1; padding-left: 0; padding-right: 0; 
+	}
+	#box-tl2{
+		padding-right:0; padding-left: 0; height: 255px;width: 80%; position: relative; left: 70px; border-bottom: 3px dotted transparent; padding-top: 50px;
+	}
+	#kotak-button{
+		border: 1px solid transparent ; padding: 10px;
+	}
+	#button-left{
+		border-radius: 100px;width: 150px; height: 150px; background-color: #fff; box-shadow: 0px 0px 0px grey; padding: 10px; position: relative; top: 0px; left: -35px;
+	}
+	#button-mid1{
+		border-radius: 100px;width: 150px; height: 150px; background-color: #fff; box-shadow: 0px 0px 0px grey; padding: 10px; position: relative; top: 0px; left:-35px;
+	}
+	#button-mid2{
+		border-radius: 100px;width: 150px; height: 150px; background-color: #fff; box-shadow: 0px 0px 0px grey; padding: 10px; position: relative; top: 0px; left:-35px;
+	}
+	#button-right{
+		border-radius: 100px;width: 150px; height: 150px; background-color: #fff; box-shadow: 0px 0px 0px grey; padding: 10px; position: relative; top: 0px; right: 0px; left: -35px;
+	}
+	#dot-carousel{
+		position: relative;
+		border: 1px solid transparent;
+		top: 800px;
+	}
+	#kotak-jtimeline{
+		margin-bottom: -80px;
+	}
+	#jtimeline{
+		border-left: 5px solid #fefefe; padding-left: 10px; margin-top: 40px;
+	}
+}
+@media screen and (min-width: 767px) and (max-width: 1023px){
+	.button-garis{
+		width: 50px;
+		height: 0px;
+		border: 1px dotted #fefefe;
+		border-radius: 100px;
+		position: absolute;
+		top: 230px;
+		left: 120px;
+	}
+
+	.button-garis2{
+		width: 50px;
+		height: 0px;
+		border: 1px dotted #fefefe;
+		border-radius: 100px;
+		position: absolute;
+		top: 108px;
+		left: 300px;
+	}
+
+	.button-garis3{
+		width: 50px;
+		height: 0px;
+		border: 1px dotted #fefefe;
+		border-radius: 100px;
+		position: absolute;
+		top: -15px;
+		left: 480px;
+	}
+	#button-left{
+		border-radius: 100px;
+		width: 100px; 
+		height: 100px; 
+		background-color: #fff; 
+		box-shadow: 1px 2px 20px grey; 
+		padding: 10px; 
+		position: relative; 
+		top: 165px; 
+		left: -250px;
+	}
+	#button-left:hover, #button-mid1:hover, #button-mid2:hover, #button-right:hover{
+		border-radius: 100px;
+		width: 100px; 
+		height: 100px; 
+		background-color: #7D89DD ; 
+		box-shadow: 1px 2px 20px grey; 
+		-webkit-transition: 0.3s ease-in-out;
+	}
+	#button-mid1{
+		border-radius: 100px;
+		width: 100px;
+		height: 100px; 
+		background-color: #fff; 
+		box-shadow: 1px 2px 20px grey;  
+		padding: 10px; 
+		position: relative; 
+		top: 50px; 
+		left: -70px;
+	}
+	#button-mid2{
+		border-radius: 100px;
+		width: 100px; 
+		height: 100px; 
+		background-color: #fff; 
+		box-shadow: 1px 2px 20px grey;  
+		padding: 10px; 
+		position: relative; 
+		top: -70px; 
+		left: 110px;
+	}
+	#button-right{
+		border-radius: 100px;
+		width: 100px; 
+		height: 100px; 
+		background-color: #fff; 
+		box-shadow: 1px 2px 20px grey;   
+		padding: 10px; 
+		position: relative; 
+		top: -190px; 
+		right: -290px;
+	}
+	#capt-button1{
+		color: #fff;
+		position: absolute;
+		top: 290px;
+		left: 20px;
+	}
+	#tgl-button1{
+		color: #fff;
+		position: absolute;
+		top : 310px;
+		left: 20px;
+	}
+	#capt-button2{
+		color: #fff;
+		position: absolute;
+		top: 170px;
+		left: 200px;
+	}
+	#tgl-button2{
+		color: #fff;
+		position: absolute;
+		top : 190px;
+		left: 200px;
+	}
+	#capt-button3{
+		color: #fff;
+		position: absolute;
+		top: 46px;
+		left: 380px;
+	}
+	#tgl-button3{
+		color: #fff;
+		position: absolute;
+		top : 66px;
+		left: 380px;
+	}
+	#capt-button4{
+		color: #fff;
+		position: absolute;
+		top: -75px;
+		left: 560px;
+	}
+	#tgl-button4{
+		color: #fff;
+		position: absolute;
+		top : -55px;
+		left: 560px;
+	}
+	#box-gambar-headblue img{
+		position: relative;
+		top: -300px;
+		left: 200px;
+		width: 50%;
+	}
+	#sem{
+		padding-bottom: 20px;
+	}
+	#desc-card{
+		text-align: center;
+	}
+	#dot-timeline-bot1{
+		position: relative;top: -20px;
+	}
+	#judul-rc{
+		color: #F48FB5; border-left: 5px solid #3C3874; padding-left: 10px; font-size: 150%;
+	}
+	#bagian-timeline{				
+		background-image: url("/img/Group13.png"); background-repeat: no-repeat center center fixed; height: 500px; -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; color: #9290A1; padding-left: 0; padding-right: 0;
+}
+#box-tl{
+	padding-right: 0; padding-left: 0;
+}
+#box-tl1{
+	height: 500px; z-index: 1; padding-left: 0; padding-right: 0; 
+}
+#box-tl2{
+	padding-right:0; padding-left: 0; height: 255px;width: 80%; position: relative; left: 70px;
+}
+#kotak-button{
+	border: 1px solid transparent ; padding: 10px;
+}
+	/*#button-left{
+		border-radius: 100px;width: 60px; height: 60px; background-color: #fff; box-shadow: 5px 5px 5px grey; padding: 10px; position: relative; top: 90px; left: -220px;
+	}
+	#button-mid1{
+		border-radius: 100px;width: 150px; height: 150px; background-color: #fff; box-shadow: 5px 5px 5px grey; padding: 10px; position: relative; top: 70px; left: -70px;
+	}
+	#button-mid2{
+		border-radius: 100px;width: 150px; height: 150px; background-color: #fff; box-shadow: 5px 5px 5px grey; padding: 10px; position: relative; top: -255px; left: 100px;
+	}
+	#button-right{
+		border-radius: 100px;width: 150px; height: 150px; background-color: #fff; box-shadow: 5px 5px 5px grey; padding: 10px; position: relative; top: -275px; right: -240px;
+	}*/
+}
+@media only screen and (min-width: 1024px) and (max-width: 1024px){
+	#box-gambar-headblue img{
+		position: relative;
+		top: -260px;
+		left: -150px;
+	}
+	#capt-button1{
+		color: #fff;
+		position: absolute;
+		top: 350px;
+		left: 25px;
+	}
+	#tgl-button1{
+		color: #fff;
+		position: absolute;
+		top : 370px;
+		left: 27px;
+	}
+	#capt-button2{
+		color: #fff;
+		position: absolute;
+		top: 175px;
+		left: 245px;
+	}
+	#tgl-button2{
+		color: #fff;
+		position: absolute;
+		top : 195px;
+		left: 245px;
+	}
+	#capt-button3{
+		color: #fff;
+		position: absolute;
+		top: 6px;
+		left: 475px;
+	}
+	#tgl-button3{
+		color: #fff;
+		position: absolute;
+		top : 25px;
+		left: 475px;
+	}
+	#capt-button4{
+		color: #fff;
+		position: absolute;
+		top: -165px;
+		left: 705px;
+	}
+	#tgl-button4{
+		color: #fff;
+		position: absolute;
+		top : -145px;
+		left: 705px;
+	}
+	.button-garis{
+		width: 50px;
+		height: 0px;
+		border: 1px dotted #fefefe;
+		border-radius: 100px;
+		position: absolute;
+		top: 260px;
+		left: 150px;
+	}
+
+	.button-garis2{
+		width: 50px;
+		height: 0px;
+		border: 1px dotted #fefefe;
+		border-radius: 100px;
+		position: absolute;
+		top: 90px;
+		left: 370px;
+	}
+
+	.button-garis3{
+		width: 50px;
+		height: 0px;
+		border: 1px dotted #fefefe;
+		border-radius: 100px;
+		position: absolute;
+		top: -83px;
+		left: 600px;
+	}
+	#button-left{
+		border-radius: 100px;
+		width: 120px; 
+		height: 120px; 
+		background-color: #fff; 
+		box-shadow: 1px 2px 20px grey; 
+		padding: 10px; 
+		position: relative; 
+		top: 165px; 
+		left: -43px;
+	}
+	#button-left:hover, #button-mid1:hover, #button-mid2:hover, #button-right:hover{
+		border-radius: 100px;
+		width: 120px; 
+		height: 120px; 
+		background-color: #7D89DD ; 
+		box-shadow: 1px 2px 20px grey; 
+		-webkit-transition: 0.3s ease-in-out;
+	}
+	#button-mid1{
+		border-radius: 100px;
+		width: 120px;
+		height: 120px; 
+		background-color: #fff; 
+		box-shadow: 1px 2px 20px grey;  
+		padding: 10px; 
+		position: relative; 
+		top: 165px; 
+		left: -10px;
+	}
+	#button-mid2{
+		border-radius: 100px;
+		width: 120px; 
+		height: 120px; 
+		background-color: #fff; 
+		box-shadow: 1px 2px 20px grey;  
+		padding: 10px; 
+		position: relative; 
+		top: 165px; 
+		left: 10px;
+	}
+	#button-right{
+		border-radius: 100px;
+		width: 120px; 
+		height: 120px; 
+		background-color: #fff; 
+		box-shadow: 1px 2px 20px grey;   
+		padding: 10px; 
+		position: relative; 
+		top: 165px; 
+		right: -40px;
+	}
+	#box-gambar-headblue{
+		padding-top: 0px;
+	}
+	#gambar-headblue{
+		margin-top: -200px; z-index: 1; width: 50%; margin-left: 470px;
+	}
+	#box-headblue{
+		padding-top: 125px; padding: 125px;
+	}
+	#konten-headblue{
+		width: 100%; color: #fff;
+	}
+	#judul-headblue{
+		padding-bottom: 30px;
+	}
+	#desc-headblue{
+		padding-bottom: 30px; text-align: justify;
+	}
+	#tombol-cek{
+		width: 150px; height: 40px; background-color: #FB4D80; border-radius: 100px; border: 0px; padding-top: 10px;
+	}
+
+	#bagian-timeline{				background-image: url('/assets/img/Group13.png'); background-repeat: no-repeat center center fixed; height: 500px; -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; color: #9290A1; padding-left: 0; padding-right: 0;
+}
+#box-tl{
+	padding-right: 0; padding-left: 0;
+}
+#box-tl1{
+	height: 500px; z-index: 1; padding-left: 0; padding-right: 0; 
+}
+#box-tl2{
+	padding-right:0; padding-left: 0; height: 255px;width: 80%; position: relative; left: 100px;
+}
+#kotak-button{
+	border: 1px solid transparent ; padding: 10px;
+}
+#button-left{
+	border-radius: 100px;width: 150px; height: 150px; background-color: #fff; box-shadow: 5px 5px 5px grey; padding: 10px; position: relative; top: 170px; left: -350px;
+}
+#button-mid1{
+	border-radius: 100px;width: 150px; height: 150px; background-color: #fff; box-shadow: 5px 5px 5px grey; padding: 10px; position: relative; top: 0px; left: -130px;
+}
+#button-mid2{
+	border-radius: 100px;width: 150px; height: 150px; background-color: #fff; box-shadow: 5px 5px 5px grey; padding: 10px; position: relative; top: -170px; left: 100px;
+}
+#button-right{
+	border-radius: 100px;width: 150px; height: 150px; background-color: #fff; box-shadow: 5px 5px 5px grey; padding: 10px; position: relative; top: -340px; right: -330px;
+}
+}
